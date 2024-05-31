@@ -17,6 +17,7 @@ RUN \
     jsonlines \
     jq \
     langchain-openai \
+    langchain_community \
     sentence_transformers \
     streamlit \
     urlextract
