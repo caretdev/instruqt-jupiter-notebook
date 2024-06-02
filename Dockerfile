@@ -2,6 +2,8 @@ FROM jupyter/minimal-notebook:latest
 
 WORKDIR /opt/intersystems
 
+COPY data /opt/intersystems/data
+
 RUN \
   jupyter labextension disable "@jupyterlab/apputils-extension:announcements" && \
   pip install \
