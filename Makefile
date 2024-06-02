@@ -1,4 +1,4 @@
-IMAGE=caretdev/instruqt-jupiter-notebook
+IMAGE=caretdev/instruqt-jupyter-notebook
 PLATFORMS=--platform linux/amd64,linux/arm64
 
 build:

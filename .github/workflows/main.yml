@@ -28,4 +28,4 @@ jobs:
         with:
           push: true
           platforms: linux/amd64
-          tags: caretdev/instruqt-jupiter-notebook:latest
+          tags: caretdev/instruqt-jupyter-notebook:latest
